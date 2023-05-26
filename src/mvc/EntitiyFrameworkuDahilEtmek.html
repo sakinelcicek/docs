@@ -78,7 +78,7 @@ namespace ders2.Models {
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAB5_OGRT\\SQLEXPRESS01;Database=ShopDB;User Id=sa;Password=123;");
+            optionsBuilder.UseSqlServer("Server=LAB5_OGRT\\SQLEXPRESS01;Database=ShopDB;User Id=sa;Password=123;TrustServerCertificate=True");
         }
 
         public DbSet<Product> Products { get; set; }
@@ -132,12 +132,12 @@ namespace ders2.Models {
                 </div>
                 
 
-                <div>
+                <!-- <div>
                     <p>7 - sertiifika hatası alırsak Context sınıfımızdki connection stringe </p>
                     https://stackoverflow.com/questions/34430550/a-connection-was-successfully-established-with-the-server-but-then-an-error-occ
                     <br>
                     <code> TrustServerCertificate=True </code> eklenir.
-                </div>
+                </div> -->
 
 
 
