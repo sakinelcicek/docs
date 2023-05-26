@@ -1,0 +1,41 @@
+main article.example .nav__items li {
+  margin-bottom: 25px;
+}
+main article .title {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.4rem;
+}
+main article hr {
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.5);
+  margin: 30px 0;
+}
+main article .small__title {
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+main article .nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+main article .nav__items li a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #487eb0;
+  position: relative;
+}
+main article .nav__items li a:hover {
+  text-decoration: underline;
+}
+main article .nav__items li a small {
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  font-size: 0.5rem;
+}/*# sourceMappingURL=index.css.map */
