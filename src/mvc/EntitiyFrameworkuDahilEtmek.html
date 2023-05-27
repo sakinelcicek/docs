@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="./images/logo.png" sizes="32x32">
     <title>sakinelcicek docs</title>
+    <link rel="icon" href="../../images/logo.png" sizes="32x32">
 
     <!-- bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,7 +26,7 @@
         <div class="container">
             <!-- <img src="https://blackscriptt.github.io/docs/images/image.png" alt="" class="logo"> -->
             <a class="logo" href="#">
-                <h1>SVART</h1>
+                <h1>SAKINELCICEK</h1>
             </a>
             <div class="links">
                 <a class="btn__custom" href="https://github.com/sakinelcicek" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
@@ -50,7 +50,7 @@
                 </nav>
 
                 <p>
-                    Merhaba, bu makalemizde mvc projemize nasıl Entity Frameworkü ekliyebileceğimizi anlatacağım. İyi wçalışmalar.
+                    Merhaba, bu makalemizde mvc projemize Entity Frameworkü nasıl ekliyebileceğimizi anlatacağım. İyi çalışmalar.
                 </p>
             </section>
 
@@ -90,39 +90,34 @@ namespace ders2.Models {
 
 
                 <div>
-                    <p>3 - Program.cs ye ekle</p>
-
-                    <code><pre>
- builder.Services.AddDbContext<span><</span>ShopContext>();
-                    </pre></code>
+                    <p>
+                        3 - Program.cs ye ekle
+                        <code>builder.Services.AddDbContext<span><</span>ShopContext>();</code>
+                    </p>
                 </div>
 
 
                 <div>
                     <p>4 - Migration oluşturulur.</p>
 
-                    <kbd>
-                        dotnet ef migrations add mig1(mig1 adını kendimiz belirledik)
-                    </kbd>
+                    <kbd>dotnet ef migrations add mig1</kbd><small>(mig1 adını kendimiz belirledik)</small>
+                    
 
                     <p class="text-secondary small mt-4">
-                        eğer migrations çalışmaz hata verirse önce:
-                        <kbd>
-                            .NET 7
-                            <br>
-
-                            dotnet tool install --global dotnet-ef
-                            .NET 6
-                            <br>
-                            dotnet tool install --global dotnet-ef --version 6.*
-                            .NET 5
-                            <br>
-                            dotnet tool install --global dotnet-ef --version 5.*
-                            .NET Core 3
-                            <br>
-                            dotnet tool install --global dotnet-ef --version 3.*
-                            .net sürümüne göre bu paketi yüklüyoruz.
-                        </kbd>
+                        eğer migrations çalışmaz hata verirse .net sürümüne göre paketi yüklüyoruz:
+                        <br>
+                        .NET son sürüm için
+                        <kbd> dotnet tool install --global dotnet-ef</kbd>
+                        <br>
+                        .NET 6 için
+                        <kbd>dotnet tool install --global dotnet-ef --version 6.*</kbd>
+                        <br>
+                        .NET 5 için
+                        <kbd>dotnet tool install --global dotnet-ef --version 5.*</kbd>
+                        <br>
+                        .NET 3 için
+                        <kbd>dotnet tool install --global dotnet-ef --version 3.*</kbd>
+                        
                     </p>
                 </div>
 

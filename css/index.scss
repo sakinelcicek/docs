@@ -21,7 +21,7 @@ main {
             padding: 0;
 
             font-family: 'Oswald', sans-serif;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             // border-bottom: 1px solid rgba(0, 0, 0, .5);
         }
 
@@ -37,7 +37,7 @@ main {
 
             font-family: 'Rubik', sans-serif;
             font-size: 1.1rem;
-            margin-bottom: 5px;
+            margin-bottom: 12px;
         }
 
         .nav__items {
@@ -47,6 +47,7 @@ main {
             list-style: none;
 
             li {
+                margin-bottom: 7px;
 
                 a {
                     font-size: .9rem;
@@ -60,7 +61,7 @@ main {
 
                     small {
                         position: absolute;
-                        bottom: 100%;
+                        bottom: 93%;
                         left: 100%;
                         font-size: .5rem;
                         

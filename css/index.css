@@ -5,7 +5,7 @@ main article .title {
   margin: 0;
   padding: 0;
   font-family: "Oswald", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 main article hr {
   border-width: 2px;
@@ -17,12 +17,15 @@ main article .small__title {
   margin: 0;
   font-family: "Rubik", sans-serif;
   font-size: 1.1rem;
-  margin-bottom: 5px;
+  margin-bottom: 12px;
 }
 main article .nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+main article .nav__items li {
+  margin-bottom: 7px;
 }
 main article .nav__items li a {
   font-size: 0.9rem;
@@ -35,7 +38,7 @@ main article .nav__items li a:hover {
 }
 main article .nav__items li a small {
   position: absolute;
-  bottom: 100%;
+  bottom: 93%;
   left: 100%;
   font-size: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
